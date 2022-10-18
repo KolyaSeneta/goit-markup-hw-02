@@ -1,7 +1,7 @@
 body {
     background: #F5F5F5;
     color: #212121;
-    font-family: Roboto,sant-serif;
+    font-family: Roboto,sans-serif;
 }
 
 .nav-item {
@@ -13,4 +13,7 @@ body {
 color: #2196F3;
 }
 
+.btn {
+   cursor: pointer;
+}
 
