@@ -17,3 +17,37 @@ color: #2196F3;
    cursor: pointer;
 }
 
+.feedback > a {
+    color: #757575;
+}
+.feedback :hover,
+.feeedback :focus {
+    color: #2196F3;
+}
+
+.adress > a {
+    color: #FFFFFF;
+}
+
+
+.footer {
+    background-color: #2F303A;
+}
+.logo {
+    color: #2196F3;
+}
+.page-header {
+    background-color: #FFFFFF;
+}
+.promo {
+    background-color: #2F303A;
+}
+.features {
+   background-color: #F5F5F5;
+}
+.about  {
+    background-color: #F5F5F5;
+}
+.team {
+    background-color: #F5F4FA;
+}
