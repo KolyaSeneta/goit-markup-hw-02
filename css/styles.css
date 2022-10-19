@@ -1,11 +1,17 @@
+:root {
+    --primary-text-color:#212121;
+    --paragraph-text-color:#757575;
+    
+}
+
 body {
     background: #F5F5F5;
-    color: #212121;
+    color: var(--primary-text-color);
     font-family: Roboto,sans-serif;
 }
 
 .nav-item {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .site-nav :hover,
@@ -53,8 +59,11 @@ color: #2196F3;
 .features {
    background-color: #F5F5F5;
 }
+.features-title {
+    color: var(--primary-text-color)
+}
 .features-text {
-    color: #757575;
+    color: var(--paragraph-text-color);
 }
 .about  {
     background-color: #F5F5F5;
@@ -66,15 +75,22 @@ color: #2196F3;
 .team-people {
     background: #FFFFFF;
 }
+.team-title {
+    color: var(--primary-text-color)
+}
 .team-text {
-    color: #757575;
+    color: var(--paragraph-text-color);
+}
+.portfolio-title {
+    color: var(--primary-text-color)
 }
 .portfolio-text {
-    color: #757575;
+    color: var(--paragraph-text-color);
 }
 .btn-filters {
     background: #F5F4FA;
     color: #212121;
+    cursor: pointer;
 }
 .btn-filters:hover,
 .btn-filters:focus {
