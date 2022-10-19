@@ -10,13 +10,44 @@ body {
     font-family: Roboto,sans-serif;
 }
 
-.nav-item {
+.site-nav > a {
     color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+    font-weight: 500;
 }
 
 .site-nav :hover,
 .site-nav :focus {
 color: #2196F3;
+}
+.nav-studio {
+    position: absolute;
+    width: 45px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+    font-size: 14px;
+    line-height: 1.14;
+    
+}
+.nav-portfolio {
+    position: absolute;
+    width: 72px;
+    height: 16px;
+    left: 548px;
+    top: 32px;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.nav-contacts {
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 670px;
+    top: 32px;
+    font-size: 14px;
+    line-height: 1.14;
+
 }
 
 .btn {
@@ -24,13 +55,57 @@ color: #2196F3;
     background: #2196F3;
    cursor: pointer;
 }
-
-.feedback > a {
+.header-feedback > a {
     color: #757575;
+    letter-spacing: 0.02em;
+    font-weight: 500;
 }
-.feedback :hover,
-.feeedback :focus {
+.header-feedback :hover,
+.header-feedback :focus {
     color: #2196F3;
+    letter-spacing: 0.02em;
+}
+.header-numb {
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.header-mail {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.footer {
+    background-color: #2F303A;
+    letter-spacing: 0.03em;
+}
+.logo-footer {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2554px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.footer-feedback > a {
+    color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
+}
+.footer-feedback :hover,
+.footer-feeedback :focus {
+    color: #2196F3;
+    letter-spacing: 0.03em;
 }
 
 .adress > .map {
@@ -41,11 +116,19 @@ color: #2196F3;
     color: #2196F3
 }
 
-.footer {
-    background-color: #2F303A;
-}
 .logo {
     color: #2196F3;
+    letter-spacing: 0.03em;
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 .page-header {
     background-color: #FFFFFF;
