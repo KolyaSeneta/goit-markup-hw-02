@@ -149,3 +149,40 @@ body {
     font-size: 14px;
     line-height: 1.71;
 }
+
+.btn-filters {
+    color: var(--primary-text-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.btn-filters:hover,
+.btn-filters:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.portfolio {
+    background: #F5F5F5;
+    letter-spacing: 0.06em;
+}
+ .portfolio-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+ }
+ .portfolio-text {
+    color: var(--paragraph-text-color);
+    font-weight: 400;
+     font-size: 16px;
+    line-height: 2.25;
+ }
