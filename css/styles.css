@@ -66,6 +66,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    cursor: pointer;
 }
 .features {
     letter-spacing: 0.03em;
@@ -80,7 +81,6 @@ body {
 }
 .text-features {
     color: var(--paragraph-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
@@ -124,30 +124,22 @@ body {
 }
 .adress > a {
     color: #FFFFFF;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
 .adress :hover,
 .adress :focus {
     color: var(--secondary-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
 }
 
 .feedback-footer > a {
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
 .feedback-footer :hover,
 .feedback-footer :focus {
     color: var(--secondary-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
 }
 
 .btn-filters {
@@ -159,16 +151,12 @@ body {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 .btn-filters:hover,
 .btn-filters:focus {
     background: #2196F3;
     color: #FFFFFF;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
 }
 .portfolio {
     background: #F5F5F5;
@@ -182,7 +170,6 @@ body {
  }
  .portfolio-text {
     color: var(--paragraph-text-color);
-    font-weight: 400;
      font-size: 16px;
     line-height: 2.25;
  }
