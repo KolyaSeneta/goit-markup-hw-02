@@ -14,6 +14,8 @@ color: #2196F3;
 }
 
 .btn {
+    color: #FFFFFF;
+    background: #2196F3;
    cursor: pointer;
 }
 
@@ -25,7 +27,7 @@ color: #2196F3;
     color: #2196F3;
 }
 
-.adress > a {
+.adress > .map {
     color: #FFFFFF;
 }
 
@@ -42,12 +44,38 @@ color: #2196F3;
 .promo {
     background-color: #2F303A;
 }
+.promo-title {
+    color: #FFFFFF;
+}
 .features {
    background-color: #F5F5F5;
+}
+.features-text {
+    color: #757575;
 }
 .about  {
     background-color: #F5F5F5;
 }
 .team {
     background-color: #F5F4FA;
+}
+
+.team-people {
+    background: #FFFFFF;
+}
+.team-text {
+    color: #757575;
+}
+.portfolio-text {
+    color: #757575;
+}
+.btn-filters {
+    background: #F5F4FA;
+    color: #212121;
+}
+.btn-filters:hover,
+.btn-filters:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
 }
