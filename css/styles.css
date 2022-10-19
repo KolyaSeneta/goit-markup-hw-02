@@ -30,7 +30,10 @@ color: #2196F3;
 .adress > .map {
     color: #FFFFFF;
 }
-
+.adress>.map:hover,
+.adress>.map:focus {
+    color: #2196F3
+}
 
 .footer {
     background-color: #2F303A;
