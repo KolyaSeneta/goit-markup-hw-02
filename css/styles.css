@@ -47,13 +47,6 @@ color: #2196F3;
     top: 32px;
     font-size: 14px;
     line-height: 1.14;
-
-}
-
-.btn {
-    color: #FFFFFF;
-    background: #2196F3;
-   cursor: pointer;
 }
 .header-feedback > a {
     color: #757575;
@@ -83,6 +76,48 @@ color: #2196F3;
     font-size: 14px;
     line-height: 1.14;
 }
+.btn {
+    color: #FFFFFF;
+    background: #2196F3;
+    cursor: pointer;
+    position: absolute;
+    width: 152px;
+    height: 30px;
+    left: 724px;
+    top: 440px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.promo {
+    background-color: #2F303A;
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+}
+.promo-title {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.features {
+    background: #F5F5F5;
+}
+
 .footer {
     background-color: #2F303A;
     letter-spacing: 0.03em;
@@ -133,23 +168,141 @@ color: #2196F3;
 .page-header {
     background-color: #FFFFFF;
 }
-.promo {
-    background-color: #2F303A;
-}
+
 .promo-title {
     color: #FFFFFF;
 }
 .features {
    background-color: #F5F5F5;
+   letter-spacing: 0.03em
 }
-.features-title {
-    color: var(--primary-text-color)
+.title-details {
+    color: var(--primary-text-color);
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 215px;
+    top: 774px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
-.features-text {
+.text-details {
     color: var(--paragraph-text-color);
+    position: absolute;
+    width: 270px;
+    height: 72px;
+    left: 215px;
+    top: 800px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.title-punctuality {
+    color: var(--primary-text-color);
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 515px;
+    top: 774px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.text-punctuality {
+    color: var(--paragraph-text-color);
+    position: absolute;
+    width: 270px;
+    height: 48px;
+    left: 515px;
+    top: 800px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.title-planning {
+    color: var(--primary-text-color);
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 815px;
+    top: 774px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.text-planning {
+    color: var(--paragraph-text-color);
+    position: absolute;
+    width: 270px;
+    height: 48px;
+    left: 815px;
+    top: 800px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.title-modern {
+    color: var(--primary-text-color);
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 1115px;
+    top: 774px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+.text-modern {
+    position: absolute;
+    width: 270px;
+    height: 72px;
+    left: 1115px;
+    top: 800px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 .about  {
     background-color: #F5F5F5;
+    letter-spacing: 0.03em;
+}
+.about-title {
+    color: var(--primary-text-color);
+    position: absolute;
+    width: 366px;
+    height: 42px;
+    left: 617px;
+    top: 966px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.about-front {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 215px;
+    top: 1058px;
+}
+.about-phone {
+    position: absolute;
+    width: 370px;
+    height: 294px;
+    left: 615px;
+    top: 1058px;
+}
+.about-logo {
+    position: absolute;
+       width: 370px;
+    height: 294px;
+    left: 1015px;
+    top: 1058px;
 }
 .team {
     background-color: #F5F4FA;
