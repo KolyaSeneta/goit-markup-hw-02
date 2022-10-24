@@ -137,19 +137,24 @@ ul {
 .footer {
     background: #2F303A;
     letter-spacing: 0.03em;
-    font-style: normal;
+    
 }
-.adress > a {
+
+
+
+.addrres > a {
     color: #FFFFFF;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
 }
-.adress :hover,
-.adress :focus {
+.addrres  :hover,
+.addrres :focus {
     color: var(--secondary-color);
 }
 
 .feedback-footer > a {
+    font-style: normal;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
