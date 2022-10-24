@@ -15,11 +15,20 @@ body {
 }
  .logo {
     font-family: 'Raleway',sans-serif;
-    color: #2196F3;
+    color:#2196F3;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+ }
+ .logo-primary {
+    color: #000000;
+
+ }
+ .logo-secondary {
+    color: #FFFFFF;
+
+
  }
  .site-nav > a {
     color: var(--primary-text-color);
