@@ -16,6 +16,7 @@ a {
 ul {
     list-style-type: none;
 }
+/* header */
 .page-header {
     background: #FFFFFF;
     letter-spacing: 0.02em;
@@ -35,7 +36,7 @@ ul {
  .logo-secondary {
     color: #FFFFFF;
 
-
+/* nav */
  }
  .site-nav > a {
     color: var(--primary-text-color);
@@ -48,6 +49,14 @@ ul {
  .site-nav :focus {
     color: var(--secondary-color);
  }
+ .site-nav.primary a:active,
+ .site-nav.primary a:visited {
+    color: var(--secondary-color);
+
+ }
+
+
+
  .feedback > a {
     color: var(--paragraph-text-color);
     font-weight: 500;
